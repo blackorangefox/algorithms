@@ -1,0 +1,23 @@
+from random import randint
+import time
+
+def bubble(array):
+    for i in range(N-1):
+        for j in range(N-i-1):
+            if array[j] > array[j+1]:
+                buff = array[j]
+                array[j] = array[j+1]
+                array[j+1] = buff
+
+N = 10000
+a = []
+for i in range(N):
+    a.append(randint(1, 10000))
+
+print(a)
+print('\n')
+start = time.time()
+bubble(a)
+end = time.time()
+print(a)
+print(end - start)
