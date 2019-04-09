@@ -1,6 +1,6 @@
 from random import randint
 import time
-
+/Users/BOF/Desktop/Education/algorithms/bubble_sort/bubble_sort.py
 def bubble(array):
     for i in range(N-1):
         for j in range(N-i-1):
